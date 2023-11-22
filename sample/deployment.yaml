@@ -19,7 +19,7 @@ spec:
             name: mynginx
       containers:
         - name: mynginx
-          image: nginx:1.13
+          image: nginx:1.14
           ports:
             - containerPort: 80
           volumeMounts:
