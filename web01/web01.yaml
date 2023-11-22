@@ -24,7 +24,7 @@ kind: Deployment
 metadata:
   name: web01
 spec:
-  replicas: 3
+  replicas: 4
   selector:
     matchLabels:
       app: web01
